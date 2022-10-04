@@ -1,9 +1,12 @@
-import React from "react"
+import React from 'react'
+import Navbar from './components/navbar'
+import './style.css'
 
-// navbar component goes here
 
 export default function App() {
     return (
-        <h1>App component</h1>
+        <div>
+            <Navbar />
+        </div>
     )
 }
