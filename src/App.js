@@ -3,7 +3,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Card from './components/Card'
 
-import './style.css'
+import lifeLessons from './images/life-lessons.png'
+
+
 
 
 export default function App() {
@@ -11,7 +13,32 @@ export default function App() {
         <div>
             <Navbar />
             <Hero />
-            <Card />
+            <Card 
+                img={lifeLessons}
+                rating='5.0'
+                reviewCount={6}
+                country='USA'
+                title='Life lessons with Katie Zaferes'
+                price={136}
+            />
+
+            <Card 
+                img={lifeLessons}
+                rating='5.0'
+                reviewCount={6}
+                country='USA'
+                title='Life lessons with Katie Zaferes'
+                price={136}
+            />
+
+            <Card 
+                img={lifeLessons}
+                rating='5.0'
+                reviewCount={6}
+                country='USA'
+                title='Life lessons with Katie Zaferes'
+                price={136}
+            />
         </div>
     )
 }
